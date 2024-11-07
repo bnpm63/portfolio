@@ -31,6 +31,7 @@ export default function Home() {
             {text}
             <span className="border-r-2 border-white animate-pulse ml-1"></span>
           </h1>
+          {/* eslint-disable-next-line react/no-unescaped-entities */}
           <p className="text-neutral-400 text-md mt-16">
             I'm a second-year Computer Science student at{" "}
             <a
