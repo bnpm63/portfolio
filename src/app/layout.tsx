@@ -12,7 +12,7 @@ const tomorrow = Tomorrow ({
 
 export const metadata: Metadata = {
   title: "Benjamin Pham",
-  description: "My portfolio",
+  description: "Benjamin Pham's portfolio",
   icons: {
     icon: "/favicon.ico",
   },
