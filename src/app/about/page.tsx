@@ -57,11 +57,9 @@ export default function About() {
 
             {/* Description */}
             <div className="md:w-1/2">
-              {/* eslint-disable-next-line react/no-unescaped-entities */}
               <p className="text-neutral-400 text-md">
-                I'm a second-year Computer Science student at UC Santa Cruz with a strong focus on machine learning and web development. I'm currently assisting in research on autonomous agents for Robotic Process Automation (RPAs), exploring how AI can enhance efficiency and decision-making in automated systems. <br /><br />
-                {/* eslint-disable-next-line react/no-unescaped-entities */}
-                I'm also the co-founder and CEO of Studify, an ed-tech company that leverages AI to help students streamline their learning processes. We develop tools that transcribe lectures into notes, solve academic problems, and create customized study guides. I'm passionate about combining technology and education to make learning more accessible and effective.
+                I&apos;m a second-year Computer Science student at UC Santa Cruz with a strong focus on machine learning and web development. I&apos;m currently assisting in research on autonomous agents for Robotic Process Automation (RPAs), exploring how AI can enhance efficiency and decision-making in automated systems. <br /><br />
+                I&apos;m also the co-founder and CEO of Studify, an ed-tech company that leverages AI to help students streamline their learning processes. We develop tools that transcribe lectures into notes, solve academic problems, and create customized study guides. I&apos;m passionate about combining technology and education to make learning more accessible and effective.
               </p>
             </div>
           </div>

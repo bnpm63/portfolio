@@ -31,9 +31,8 @@ export default function Home() {
             {text}
             <span className="border-r-2 border-white animate-pulse ml-1"></span>
           </h1>
-          {/* eslint-disable-next-line react/no-unescaped-entities */}
           <p className="text-neutral-400 text-md mt-16">
-            I'm a second-year Computer Science student at{" "}
+            I&apos;m a second-year Computer Science student at{" "}
             <a
               href="https://www.ucsc.edu"
               target="_blank"
@@ -49,14 +48,11 @@ export default function Home() {
         <div className="mt-20 text-left">
           <h1 className="text-4xl font text-white mb-12">My Projects</h1>
 
-          
           <div className="space-y-10">
-           
             <hr className="border-t border-neutral-700 mb-4" />
 
             {/* Project 1 */}
             <div className="flex flex-col gap-4 py-2">
-              
               <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center text-sm text-neutral-500 mb-2">
                 <p>November 2024</p>
                 <div className="flex gap-4 mt-2 sm:mt-0">
@@ -75,14 +71,12 @@ export default function Home() {
                 </div>
               </div>
 
-              
               <h2 className="text-3xl font-base text-white mt-4">Studify</h2>
               <p className="text-neutral-400">
                 Studify is an AI-powered study app designed to support students.
               </p>
             </div>
 
-           
             <hr className="border-t border-neutral-700 mb-4" />
 
             {/* Project 2 */}
@@ -90,25 +84,21 @@ export default function Home() {
               <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center text-sm text-neutral-500 mb-2">
                 <p>October 2024</p>
                 <div className="flex gap-4 mt-2 sm:mt-0">
-                  
                   <a
                     href="https://github.com/bnpm63/photolibrary"
                     className="text-white hover:text-neutral-400 flex items-center"
                   >
-                   
-                   View on Github <span className="ml-2">→</span>
+                    View on Github <span className="ml-2">→</span>
                   </a>
                 </div>
               </div>
 
-              
               <h2 className="text-3xl font-base text-white mt-4">AWS Photo Library</h2>
               <p className="text-neutral-400">
                 AWS Photo Library is a cloud-based photo storage app leveraging Amazon EC2 and S3.
               </p>
             </div>
 
-            
             <hr className="border-t border-neutral-700 mb-4" />
 
             {/* Project 3 */}
@@ -125,14 +115,12 @@ export default function Home() {
                 </div>
               </div>
 
-            
               <h2 className="text-3xl font-base text-white mt-4">SmartPlate</h2>
               <p className="text-neutral-400">
                 SmartPlate is a nutrition-tracking app that lets users stay motivated through gamification.
               </p>
             </div>
 
-            
             <hr className="border-t border-neutral-700 mb-4" />
           </div>
         </div>
