@@ -9,7 +9,7 @@ export default function Navbar() {
 
   return (
     <nav className="bg-transparent">
-      <div className="max-w-screen-md mx-auto"> {/* Changed max-w-full to max-w-screen-md */}
+      <div className="max-w-screen-md mx-auto"> 
         <div className="flex items-center justify-between h-16">
           {/* Logo and bnpm */}
           <div className="flex items-center space-x-2">

@@ -28,7 +28,7 @@ export default function Contact() {
 
         {/* Main Content */}
         <div className="mt-20 text-left">
-          <h1 className="text-4xl font-medium text-white mb-8">{text}<span className="border-r-2 border-white animate-pulse ml-1"></span></h1>
+          <h1 className="text-4xl font-base text-white mb-8">{text}<span className="border-r-2 border-white animate-pulse ml-1"></span></h1>
           <p className="text-neutral-400 mb-8">
             Feel free to reach out through any of the following platforms:
           </p>

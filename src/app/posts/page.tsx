@@ -25,7 +25,7 @@ export default function Home() {
         
         <Navbar />
         <div className="mt-20 text-left">
-          <h1 className="text-4xl font-medium text-white-500 mb-4">
+          <h1 className="text-4xl font-normal text-white-500 mb-4">
             {text}
             <span className="border-r-2 border-white animate-pulse ml-1"></span>
           </h1>
