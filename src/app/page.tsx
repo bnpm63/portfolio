@@ -1,7 +1,7 @@
 "use client";
 import Navbar from "@/app/components/navbar";
 import { useState, useEffect } from "react";
-import { Github, Mail, Linkedin } from "lucide-react"; 
+/*import { Github, Mail, Linkedin } from "lucide-react";*/
 
 export default function Home() {
   const [text, setText] = useState("");
