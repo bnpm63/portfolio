@@ -49,7 +49,7 @@ export default function About() {
                 href="https://www.google.com/maps/place/37%C2%B000'35.6%22N+122%C2%B011'41.2%22W/@37.0098767,-122.1947818,793m/data=!3m2!1e3!4b1!4m4!3m3!8m2!3d37.0098767!4d-122.1947818?entry=ttu&g_ep=EgoyMDI0MTAyNy4wIKXMDSoASAFQAw%3D%3D"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-neutral-500 font-normal hover:text-neutral-400 text-sm mt-2 inline-block"
+                className="text-neutral-400 font-normal hover:text-gray-200 transition duration-200 text-sm mt-2 inline-block"
               >
                 37.0098767, -122.1947818
               </a>

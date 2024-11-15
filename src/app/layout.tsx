@@ -1,12 +1,43 @@
 import type { Metadata } from "next";
-import { Tomorrow } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 import { Analytics } from "@vercel/analytics/react";
 
-const tomorrow = Tomorrow({
-  subsets: ["latin"],
-  variable: "--font-tomorrow",
-  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+const hostGrotesk = localFont({
+  src: [
+    {
+      path: "./fonts/HostGrotesk-Light.ttf",
+      weight: "200",
+      style: "normal",
+    },
+    {
+      path: "./fonts/HostGrotesk-Regular.ttf",
+      weight: "400",
+      style: "normal",
+    },
+    {
+      path: "./fonts/HostGrotesk-Medium.ttf",
+      weight: "500",
+      style: "normal",
+    },
+    {
+      path: "./fonts/HostGrotesk-SemiBold.ttf",
+      weight: "600",
+      style: "normal",
+    },
+    {
+      path: "./fonts/HostGrotesk-Bold.ttf",
+      weight: "700",
+      style: "normal",
+    },
+    {
+      path: "./fonts/HostGrotesk-ExtraBold.ttf",
+      weight: "900",
+      style: "normal",
+    },
+    // Add other weights and styles as needed
+  ],
+  variable: "--font-host-grotesk",
 });
 
 export const metadata: Metadata = {
@@ -19,14 +50,14 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
     <html lang="en">
-      <body className={`${tomorrow.variable} antialiased`}>
+      <body className={`${hostGrotesk.variable} antialiased`}>
         {children}
-        <Analytics /> 
+        <Analytics />
       </body>
     </html>
   );

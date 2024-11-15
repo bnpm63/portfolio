@@ -5,12 +5,12 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-  --font-primary: 'tomorrow', sans-serif; /* Define Jost as the primary font */
+  --font-primary: 'host-grotesk', sans-serif; 
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #000000;
     --foreground: #ededed;
   }
 }
@@ -18,6 +18,8 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: var(--font-tomorrow), sans-serif;
+  font-family: var(--font-host-grotesk), sans-serif;
+  
 }
+
 

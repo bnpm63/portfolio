@@ -1,6 +1,7 @@
 "use client";
 import Navbar from "@/app/components/navbar";
 import { useState, useEffect } from "react";
+import { Github, Mail, Linkedin } from "lucide-react"; 
 
 export default function Home() {
   const [text, setText] = useState("");
@@ -37,7 +38,7 @@ export default function Home() {
               href="https://www.ucsc.edu"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-yellow-400 font-normal hover:text-yellow-200 transition duration-400 ease-in-out transform hover:scale-105"
+              className="text-yellow-400 font-normal hover:text-yellow-200 transition duration-200"
             >
               UC Santa Cruz
             </a>
@@ -46,7 +47,7 @@ export default function Home() {
         </div>
         {/* specializing in AI and web development. I blend these passions to craft innovative solutions. */}
         <div className="mt-20 text-left">
-          <h1 className="text-3xl font text-white font-normal mb-12">My Projects</h1>
+          <h1 className="text-3xl font text-white underline font-light mb-12">My Projects</h1>
 
           <div className="space-y-10">
             <hr className="border-t border-neutral-700 mb-4" />
@@ -54,24 +55,24 @@ export default function Home() {
             {/* Project 1 */}
             <div className="flex flex-col gap-4 py-2">
               <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center text-sm text-neutral-400 mb-2">
-                <p>November 2024</p>
+                <p className="text-neutral-600">November 2024</p>
                 <div className="flex gap-4 mt-2 sm:mt-0">
                   <a
                     href="https://github.com/StudifyAI/studify"
-                    className="text-blue-500 font-semibold hover:text-blue-400 flex items-center"
+                    className="text-blue-500 font-semibold hover:text-blue-300 transition duration-200 flex items-center"
                   >
                     See it in action <span className="ml-2">→</span>
                   </a>
                   <a
                     href="https://github.com/StudifyAI/studify"
-                    className="text-white hover:text-neutral-400 flex items-center"
+                    className="text-white hover:text-neutral-400 transition duration-200 flex items-center"
                   >
                     View on Github <span className="ml-2">→</span>
                   </a>
                 </div>
               </div>
 
-              <h2 className="text-2xl font-normal text-white mt-4">Studify</h2>
+              <h2 className="text-2xl font-light text-white mt-4">Studify</h2>
               <p className="text-neutral-400 text-sm">
                 Studify is an AI-powered study app designed to support students.
               </p>
@@ -82,18 +83,18 @@ export default function Home() {
             {/* Project 2 */}
             <div className="flex flex-col gap-4 py-2">
               <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center text-sm text-neutral-400 mb-2">
-                <p>October 2024</p>
+                <p className="text-neutral-600">October 2024</p>
                 <div className="flex gap-4 mt-2 sm:mt-0">
                   <a
                     href="https://github.com/bnpm63/photolibrary"
-                    className="text-white hover:text-neutral-400 flex items-center"
+                    className="text-white hover:text-neutral-400 transition duration-200 flex items-center"
                   >
                     View on Github <span className="ml-2">→</span>
                   </a>
                 </div>
               </div>
 
-              <h2 className="text-2xl font-normal text-white mt-4">AWS Photo Library</h2>
+              <h2 className="text-2xl font-light text-white mt-4">AWS Photo Library</h2>
               <p className="text-neutral-400 text-sm">
                 AWS Photo Library is a cloud-normald photo storage app leveraging Amazon EC2 and S3.
               </p>
@@ -104,24 +105,48 @@ export default function Home() {
             {/* Project 3 */}
             <div className="flex flex-col gap-4 py-2">
               <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center text-sm text-neutral-400 mb-2">
-                <p>March 2024</p>
+                <p className="text-neutral-600">March 2024</p>
                 <div className="flex gap-4 mt-2 sm:mt-0">
                   <a
                     href="https://github.com/bnpm63/smartplate"
-                    className="text-white hover:text-neutral-400 flex items-center"
+                    className="text-white hover:text-neutral-400 transition duration-200 flex items-center"
                   >
                     View on Github <span className="ml-2">→</span>
                   </a>
                 </div>
               </div>
 
-              <h2 className="text-2xl font-normal text-white mt-4">SmartPlate</h2>
+              <h2 className="text-2xl font-light text-white mt-4">SmartPlate</h2>
               <p className="text-neutral-400 text-sm">
                 SmartPlate is a nutrition-tracking app that lets users stay motivated through gamification.
               </p>
             </div>
 
             <hr className="border-t border-neutral-700 mb-4" />
+
+            {/*
+            <div className="mt-20 flex justify-end">
+              <div className="flex space-x-6">
+                <a
+                  href="https://github.com/your-github-username"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Github className="w-5 h-5 text-neutral-500 hover:text-neutral-400 transition duration-200" />
+                </a>
+                <a href="mailto:your-email@example.com">
+                  <Mail className="w-5 h-5 text-neutral-500 hover:text-neutral-400 transition duration-200" />
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/your-linkedin-username"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Linkedin className="w-5 h-5 text-neutral-500 hover:text-neutral400 transition duration-200" />
+                </a>
+              </div>
+           </div>
+           */}
           </div>
         </div>
       </div>
