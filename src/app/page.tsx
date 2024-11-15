@@ -1,35 +1,15 @@
-"use client";
 import Navbar from "@/app/components/navbar";
-import { useState, useEffect } from "react";
-/*import { Github, Mail, Linkedin } from "lucide-react";*/
+import TypingText from "@/app/components/TypingText";
 
 export default function Home() {
-  const [text, setText] = useState("");
-  const fullText = "Hey, I'm Benjamin";
-  const typingSpeed = 105; // typing speed in ms
-
-  useEffect(() => {
-    let index = 0;
-    const type = () => {
-      if (index < fullText.length) {
-        setText(fullText.slice(0, index + 1));
-        index++;
-        setTimeout(type, typingSpeed);
-      }
-    };
-    type();
-  }, []);
-
   return (
     <div className="flex justify-center py-20 px-8">
       <div className="w-full max-w-screen-md">
-        {/* Navigation Bar */}
         <Navbar />
 
-        {/* Main Content */}
         <div className="mt-20 text-left">
           <h1 className="text-5xl font-normal text-white-400 mb-4">
-            {text}
+            <TypingText fullText="Hey, I'm Benjamin" typingSpeed={105} />
             <span className="border-r-2 border-white animate-pulse ml-1"></span>
           </h1>
           <p className="text-neutral-400 font-normal text-md mt-16">
@@ -45,9 +25,11 @@ export default function Home() {
             , passionate about machine learning and web development. I blend these passions to craft innovative solutions.
           </p>
         </div>
-        {/* specializing in AI and web development. I blend these passions to craft innovative solutions. */}
+
         <div className="mt-20 text-left">
-          <h1 className="text-3xl font text-white underline font-light mb-12">My Projects</h1>
+          <h1 className="text-3xl font text-white underline font-light mb-12">
+            My Projects
+          </h1>
 
           <div className="space-y-10">
             <hr className="border-t border-neutral-700 mb-4" />
@@ -145,8 +127,8 @@ export default function Home() {
                   <Linkedin className="w-5 h-5 text-neutral-500 hover:text-neutral400 transition duration-200" />
                 </a>
               </div>
-           </div>
-           */}
+            </div>
+            */}
           </div>
         </div>
       </div>

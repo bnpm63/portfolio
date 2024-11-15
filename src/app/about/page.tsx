@@ -1,26 +1,8 @@
-"use client";
-
 import Image from "next/image";
 import Navbar from "@/app/components/navbar";
-import { useState, useEffect } from "react";
+import TypingText from "@/app/components/TypingText";
 
 export default function About() {
-  const [text, setText] = useState("");
-  const fullText = "About Me";
-  const typingSpeed = 160; // typing speed in ms
-
-  useEffect(() => {
-    let index = 0;
-    const type = () => {
-      if (index < fullText.length) {
-        setText(fullText.slice(0, index + 1));
-        index++;
-        setTimeout(type, typingSpeed);
-      }
-    };
-    type();
-  }, []);
-
   return (
     <div className="flex justify-center py-20">
       <div className="mx-8 w-full max-w-screen-md">
@@ -30,7 +12,7 @@ export default function About() {
         {/* Main Content */}
         <div className="mt-20 text-left">
           <h1 className="text-4xl font-base text-white mb-16">
-            {text}
+            <TypingText fullText="About Me" typingSpeed={160} />
             <span className="border-r-2 border-white animate-pulse ml-1"></span>
           </h1>
 
@@ -39,7 +21,7 @@ export default function About() {
             {/* Image and Coordinates */}
             <div className="md:w-1/2">
               <Image
-                src="/about.jpg"  
+                src="/about.jpg"
                 alt="About Me Image"
                 width={500}
                 height={500}
