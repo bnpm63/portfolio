@@ -78,7 +78,7 @@ export default function Home() {
 
               <h2 className="text-2xl font-light text-white mt-4">AWS Photo Library</h2>
               <p className="text-neutral-400 text-sm">
-                AWS Photo Library is a cloud-normald photo storage app leveraging Amazon EC2 and S3.
+                AWS Photo Library is a cloud-powered photo storage app leveraging Amazon EC2 and S3.
               </p>
             </div>
 
