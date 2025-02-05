@@ -11,7 +11,6 @@ export default function Navbar() {
     <nav className="bg-transparent">
       <div className="max-w-screen-md mx-auto"> 
         <div className="flex items-center justify-between h-16">
-          {/* Logo and bnpm */}
           <div className="flex items-center space-x-2">
             <Image
               src="/Untitled(1).svg"
@@ -22,7 +21,6 @@ export default function Navbar() {
             />
           </div>
 
-          {/* Desktop Menu */}
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-8">
               <Link href="/" className="text-white hover:text-gray-400 transition duration-200 px-3 py-2 rounded-md text-sm">
@@ -40,7 +38,6 @@ export default function Navbar() {
             </div>
           </div>
 
-          {/* Mobile Menu Button */}
           <div className="md:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
@@ -76,7 +73,6 @@ export default function Navbar() {
         </div>
       </div>
 
-      {/* Mobile Menu */}
       {isOpen && (
         <div className="md:hidden" id="mobile-menu">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">

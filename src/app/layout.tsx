@@ -35,7 +35,7 @@ const hostGrotesk = localFont({
       weight: "900",
       style: "normal",
     },
-    // Add other weights and styles as needed
+    //
   ],
   variable: "--font-host-grotesk",
 });

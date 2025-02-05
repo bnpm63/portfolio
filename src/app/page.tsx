@@ -34,19 +34,19 @@ export default function Home() {
           <div className="space-y-10">
             <hr className="border-t border-neutral-700 mb-4" />
 
-            {/* Project 1 */}
+            {/*  1 */}
             <div className="flex flex-col gap-4 py-2">
               <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center text-sm text-neutral-400 mb-2">
-                <p className="text-neutral-600">November 2024</p>
+                <p className="text-neutral-600">January 2025</p>
                 <div className="flex gap-4 mt-2 sm:mt-0">
                   <a
-                    href="https://github.com/StudifyAI/studify"
+                    href="https://youtu.be/YsSg1ZTZAfc"
                     className="text-blue-500 font-semibold hover:text-blue-300 transition duration-200 flex items-center"
                   >
                     See it in action <span className="ml-2">→</span>
                   </a>
                   <a
-                    href="https://github.com/StudifyAI/studify"
+                    href="https://github.com/bnpm63/realestate-ml"
                     className="text-white hover:text-neutral-400 transition duration-200 flex items-center"
                   >
                     View on Github <span className="ml-2">→</span>
@@ -54,15 +54,14 @@ export default function Home() {
                 </div>
               </div>
 
-              <h2 className="text-2xl font-light text-white mt-4">Studify</h2>
+              <h2 className="text-2xl font-light text-white mt-4">Machine Learning Real Estate Valuation </h2>
               <p className="text-neutral-400 text-sm">
-                Studify is an AI-powered study app designed to support students.
+                Predicts the value of a home based on geographical and architectural aspects using a Random Forest Algorithm.
               </p>
             </div>
 
             <hr className="border-t border-neutral-700 mb-4" />
 
-            {/* Project 2 */}
             <div className="flex flex-col gap-4 py-2">
               <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center text-sm text-neutral-400 mb-2">
                 <p className="text-neutral-600">October 2024</p>
@@ -84,7 +83,7 @@ export default function Home() {
 
             <hr className="border-t border-neutral-700 mb-4" />
 
-            {/* Project 3 */}
+            {/*  3 */}
             <div className="flex flex-col gap-4 py-2">
               <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center text-sm text-neutral-400 mb-2">
                 <p className="text-neutral-600">March 2024</p>

@@ -6,19 +6,16 @@ export default function About() {
   return (
     <div className="flex justify-center py-20">
       <div className="mx-8 w-full max-w-screen-md">
-        {/* Navigation Bar */}
+
         <Navbar />
 
-        {/* Main Content */}
         <div className="mt-20 text-left">
           <h1 className="text-4xl font-base text-white mb-16">
             <TypingText fullText="About Me" typingSpeed={160} />
             <span className="border-r-2 border-white animate-pulse ml-1"></span>
           </h1>
 
-          {/* About Section */}
           <div className="flex flex-col md:flex-row gap-6 items-start">
-            {/* Image and Coordinates */}
             <div className="md:w-1/2">
               <Image
                 src="/about.jpg"
@@ -37,11 +34,10 @@ export default function About() {
               </a>
             </div>
 
-            {/* Description */}
             <div className="md:w-1/2">
               <p className="text-neutral-500 font-normal text-md">
                 I&apos;m a second-year Computer Science student at UC Santa Cruz with a strong focus on machine learning and web development. I&apos;m currently assisting in research on autonomous agents for Robotic Process Automation (RPAs), exploring how AI can enhance efficiency and decision-making in automated systems. <br /><br />
-                I&apos;m currently running Studify, an AI-powered app designed to help students streamline their learning processes. Studify includes tools to transcribe lectures into notes, solve academic problems, and create customized study guides. In my free time, I love to read and write, constantly exploring new ideas and perspectives—feel free to check out my posts, including book reviews.
+                In my free time, I love to read and write, constantly exploring new ideas and perspectives—feel free to check out my posts, including book reviews.
               </p>
             </div>
           </div>
